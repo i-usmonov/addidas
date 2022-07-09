@@ -1,0 +1,66 @@
+@media (max-width:767px) {
+    form {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+
+    }
+
+    .search {
+        display: block;
+        font-size: 25px;
+    }
+
+    .header-nav__list li {
+        padding: 21px 6px;
+    }
+
+    .alogo img {
+        width: 50px;
+    }
+
+    .header-content img {
+        width: 200px;
+    }
+
+    .main-clothes {
+        justify-content: center;
+    }
+
+    .clothes-one {
+        width: 50%;
+    }
+
+    .clothes-one img {
+        width: 80px;
+    }
+
+    .footerlogo img {
+        width: 60px;
+    }
+
+    .header-nav__list li {
+        padding: 20px 10px;
+
+    }
+
+    .header-nav {
+        position: fixed;
+        top: 0;
+        background: white;
+    }
+
+    .header-content {
+        background-position: 50% 50px;
+    }
+
+    form {
+        transform: translateX(120%);
+        transition: 500ms;
+    }
+
+    .search:hover~form {
+        transform: translateX(0);
+
+    }
+}
